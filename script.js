@@ -9,5 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const body = document.body;
 
      // Adiciona máscara automática para o CPF enquanto o usuário digita
-    cpfInput.addEventListener('input', function(e) {});
+    cpfInput.addEventListener('input', function(e) {
+
+        // Remove todos os caracteres não numéricos
+        let value = e.target.value.replace(/\D/g, '');
+        
+    });
 });
