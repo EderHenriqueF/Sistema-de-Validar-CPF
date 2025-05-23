@@ -43,5 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
          // Obtém o CPF sem formatação
         const cpf = cpfInput.value.replace(/\D/g, '');
+
+         // Reseta os estados visuais
+        body.className = '';
+        statusMessage.className = 'status-message';
     });
 });
