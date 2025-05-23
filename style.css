@@ -132,3 +132,8 @@ h1 {
     transition: background-color 0.3s;
     flex: 1;
 }
+
+/* Efeito hover no botão limpar */
+#clearButton:hover {
+    background-color: #d32f2f;
+}
