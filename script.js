@@ -37,4 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         statusMessage.className = 'status-message';
         cpfInput.focus(); // Coloca o foco de volta no input
     });
+
+    // Configura o botão de verificar
+    verifyButton.addEventListener('click', function() {});
 });
