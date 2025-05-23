@@ -26,4 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
          // Atualiza o valor do input com a formatação
         e.target.value = value;
     });
+
+    // Configura o botão de limpar
+    clearButton.addEventListener('click', function() {});
 });
