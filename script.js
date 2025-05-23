@@ -57,5 +57,14 @@ document.addEventListener('DOMContentLoaded', function() {
             statusMessage.classList.add('show');
             return;
         }
+
+        if (cpf.length !== 11) {
+            // Caso o CPF esteja incompleto
+            showResult("CPF deve ter 11 dígitos", "warning");
+            body.classList.add('incomplete');
+            statusMessage.textContent = "CPF Incompleto!!";
+            statusMessage.classList.add('show');
+            return;
+        }
     });
 });
