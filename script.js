@@ -66,5 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
             statusMessage.classList.add('show');
             return;
         }
+
+        if (/^(\d)\1{10}$/.test(cpf)) {
+            // Caso todos os dígitos sejam iguais
+            showResult("CPF não pode ter todos dígitos iguais", "invalid");
+            body.classList.add('invalid');
+            statusMessage.textContent = "Você não existe!!";
+            statusMessage.classList.add('show');
+            return;
+        }
     });
 });
