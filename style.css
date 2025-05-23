@@ -35,3 +35,13 @@ body.incomplete {
     max-width: 350px;
     z-index: 10;
 }
+
+/* Estilo do container branco */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: all 0.3s;
+}
