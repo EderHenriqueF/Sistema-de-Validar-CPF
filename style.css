@@ -114,3 +114,21 @@ h1 {
     transition: background-color 0.3s;
     flex: 2;
 }
+
+/* Efeito hover no botão verificar */
+#verifyButton:hover {
+    background-color: #0d8bf2;
+}
+
+/* Estilo do botão limpar */
+#clearButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    flex: 1;
+}
