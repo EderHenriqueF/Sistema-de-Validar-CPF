@@ -15,3 +15,13 @@ body {
 body.valid {
     background-color: #4CAF50; /* Verde para CPF válido */
 }
+body.invalid {
+    background-color: #F44336; /* Vermelho para CPF inválido */
+}
+body.empty {
+    background-color: #FFEB3B; /* Amarelo para campo vazio */
+}
+body.incomplete {
+    background-color: #FFC107; /* Amarelo mais forte para CPF incompleto */
+}
+
