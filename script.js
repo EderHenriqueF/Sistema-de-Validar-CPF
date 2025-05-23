@@ -28,5 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Configura o botão de limpar
-    clearButton.addEventListener('click', function() {});
+    clearButton.addEventListener('click', function() {
+
+         // Limpa o input e reseta todos os estados
+        cpfInput.value = '';
+        resultDiv.style.display = 'none';
+        body.className = '';
+        statusMessage.className = 'status-message';
+        cpfInput.focus(); // Coloca o foco de volta no input
+    });
 });
