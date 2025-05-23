@@ -47,5 +47,15 @@ document.addEventListener('DOMContentLoaded', function() {
          // Reseta os estados visuais
         body.className = '';
         statusMessage.className = 'status-message';
+
+         // Validações básicas
+        if (!cpf) {
+            // Caso o campo esteja vazio
+            showResult("Por favor, digite um CPF", "warning");
+            body.classList.add('empty');
+            statusMessage.textContent = "Caixa está vazia!!";
+            statusMessage.classList.add('show');
+            return;
+        }
     });
 });
