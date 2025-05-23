@@ -58,3 +58,20 @@ h1 {
     margin-bottom: 20px;
     font-size: 24px;
 }
+
+/* Estilo da mensagem de status no topo */
+.status-message {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    z-index: 1;
+}
