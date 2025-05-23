@@ -83,5 +83,13 @@ document.addEventListener('DOMContentLoaded', function() {
             body.classList.add('valid');
             statusMessage.textContent = "Você está validado!";
             statusMessage.classList.add('show');
+
+             } else {
+            // CPF inválido
+            showResult("CPF Inválido", "invalid");
+            body.classList.add('invalid');
+            statusMessage.textContent = "Você não existe!!";
+            statusMessage.classList.add('show');
+        }
     });
 });
