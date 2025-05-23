@@ -75,3 +75,8 @@ h1 {
     pointer-events: none;
     z-index: 1;
 }
+
+/* Classe para mostrar a mensagem de status */
+.status-message.show {
+    opacity: 1;
+}
