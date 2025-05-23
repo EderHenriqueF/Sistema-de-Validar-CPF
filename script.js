@@ -75,5 +75,13 @@ document.addEventListener('DOMContentLoaded', function() {
             statusMessage.classList.add('show');
             return;
         }
+
+        // Validação matemática do CPF
+        if (validarCPF(cpf)) {
+            // CPF válido
+            showResult("CPF Válido", "valid");
+            body.classList.add('valid');
+            statusMessage.textContent = "Você está validado!";
+            statusMessage.classList.add('show');
     });
 });
