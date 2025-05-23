@@ -137,3 +137,13 @@ h1 {
 #clearButton:hover {
     background-color: #d32f2f;
 }
+
+/* Estilo da div de resultado */
+#result {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+    font-size: 18px;
+}
