@@ -99,4 +99,10 @@ document.addEventListener('DOMContentLoaded', function() {
         resultDiv.className = type;
         resultDiv.style.display = "block";
     }
+
+    // Algoritmo de validação de CPF
+    function validarCPF(cpf) {}
+        let soma = 0;
+        let resto;
+        
 });
