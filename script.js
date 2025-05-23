@@ -92,4 +92,11 @@ document.addEventListener('DOMContentLoaded', function() {
             statusMessage.classList.add('show');
         }
     });
+
+    // Função para mostrar o resultado da validação
+    function showResult(message, type) {
+        resultDiv.textContent = message;
+        resultDiv.className = type;
+        resultDiv.style.display = "block";
+    }
 });
