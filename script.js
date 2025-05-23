@@ -39,5 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Configura o botão de verificar
-    verifyButton.addEventListener('click', function() {});
+    verifyButton.addEventListener('click', function() {
+
+         // Obtém o CPF sem formatação
+        const cpf = cpfInput.value.replace(/\D/g, '');
+    });
 });
