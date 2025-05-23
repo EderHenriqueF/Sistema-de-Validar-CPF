@@ -23,5 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             value = value.replace(/(\d{3})(\d{1,3})/, '$1.$2');
         }
         
+         // Atualiza o valor do input com a formatação
+        e.target.value = value;
     });
 });
